@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "SEEventConstants.h"
+#import "SolarEngineSDK.h"
 
 FOUNDATION_EXPORT double BXSESDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char BXSESDKVersionString[];

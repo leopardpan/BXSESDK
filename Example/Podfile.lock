@@ -1,27 +1,16 @@
 PODS:
-  - BXSESDK (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - BXSESDK (0.1.2)
 
 DEPENDENCIES:
   - BXSESDK (from `../`)
-  - FBSnapshotTestCase
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   BXSESDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BXSESDK: 8ea9bff8313fa07f424b8495e888b97d80448161
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  BXSESDK: 40456ffc4fd23a14f5310a6e20c37e35fd9d0eac
 
-PODFILE CHECKSUM: 0b58a56b56b6253a8f10e2a32291dba5d7a5330a
+PODFILE CHECKSUM: 2926d1f3dea72c5b2fc99be06e355194d39e7f1c
 
 COCOAPODS: 1.11.3
