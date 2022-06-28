@@ -1,0 +1,6 @@
+framework module BXSESDK {
+  umbrella header "BXSESDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

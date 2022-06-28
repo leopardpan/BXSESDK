@@ -1,0 +1,22 @@
+{
+  "name": "BXSESDK",
+  "version": "0.1.0",
+  "summary": "A short description of BXSESDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/leopardpan/BXSESDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leopardpan": "baixin.pan@mobvista.com"
+  },
+  "source": {
+    "git": "https://github.com/leopardpan/BXSESDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BXSESDK/Classes/**/*"
+}
