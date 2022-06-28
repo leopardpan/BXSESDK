@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
 #  s.source_files = 'BXSESDK/Classes/**/*'
-  s.ios.vendored_frameworks = 'BXSDK/Classes/*.framework'
+  s.ios.vendored_frameworks = 'BXSESDK/Classes/*.framework'
 
   # s.resource_bundles = {
   #   'BXSESDK' => ['BXSESDK/Assets/*.png']
