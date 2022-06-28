@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BXSESDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SESDK 测试项目.'
 
 # This description is used to generate tags and improve search results.
