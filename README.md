@@ -36,7 +36,12 @@ SolarEngine iOS SDK 适用于 iOS 9.0 及以上的操作系统。
 
 ![](https://s4.ax1x.com/2022/02/21/Hj64w6.png)
  
-  
+
+### 2、使用Cocoapods集成SDK
+
+```
+pod 'BXSESDK'
+```
 
 ## 三、接入方法说明
 
