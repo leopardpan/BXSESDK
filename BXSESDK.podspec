@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BXSESDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SESDK 测试项目.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '测试项目，仅供个人测试使用'
+  s.description      = <<-DESC
+    BXSESDK (0.1.2)
+             DESC
 
   s.homepage         = 'https://github.com/leopardpan/BXSESDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,13 +31,18 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
 #  s.source_files = 'BXSESDK/Classes/**/*'
-  s.ios.vendored_frameworks = 'BXSESDK/Classes/*.framework'
+  s.ios.vendored_frameworks = 'BXSESDK/Classes/SolarEngineSDK.framework'
 
   # s.resource_bundles = {
   #   'BXSESDK' => ['BXSESDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation', 'Security', 'CoreTelephony','AdSupport','SystemConfiguration'
+   s.libraries  = 'sqlite3', 'z'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end

@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SEEventConstants.h>
+#import "SEEventConstants.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
